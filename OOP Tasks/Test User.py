@@ -1,6 +1,6 @@
 import Admin
 
-admin = Admin.Admin("Андрій", "Парайко", "18", "andriyparayko2017@gmail.com", 5)
+admin = Admin.Admin("Іван", "Дронек", "18", "dronek.ivan@chnu.edu.ua", 9)
 print(admin.priv.show_privileges())
 
 from Admin import Admin, Privileges
